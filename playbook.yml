@@ -1,0 +1,19 @@
+---
+- name: install required software
+  hosts: web
+  tasks:
+    - name: install maven
+      become: true
+      apt:
+        name: maven
+        state: present
+    - name: install google.com web page
+      get_url: 
+        url: https://www.google.com
+        dest: /home
+      
+
+
+
+        
+
