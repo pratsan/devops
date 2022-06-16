@@ -9,7 +9,7 @@
         state: present
     - name: install google.com web page
       get_url: 
-        url: https://www.google.com
+        url: https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F77%2FGoogle_Images_2015_logo.svg%2F640px-Google_Images_2015_logo.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGoogle_Images&tbnid=N0IaU6YuMly4YM&vet=12ahUKEwj9wtSC1rH4AhUi0HMBHWdzDZ8QMygAegUIARDXAQ..i&docid=qfPPp-mRFi6Y6M&w=640&h=220&q=google%20image&ved=2ahUKEwj9wtSC1rH4AhUi0HMBHWdzDZ8QMygAegUIARDXAQ
         dest: /home
       
 
